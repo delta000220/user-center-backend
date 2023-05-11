@@ -1,0 +1,12 @@
+spring:
+
+# DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://1.13.161.163:3306/user_center?useSSL=false'
+    username: delta
+    password: 123456
+
+#session 失效时间
+  session:
+    timeout: 86400
